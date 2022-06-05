@@ -1,3 +1,5 @@
+
+
 /* General styles*/
 * {
     margin: 0;
@@ -113,6 +115,7 @@ body {
       width: 20px;
       display: flex;
       justify-content: center;
+      color: #ff9a00;
   }
 
   .contact-info__item-icon path {
@@ -120,7 +123,7 @@ body {
   }
 
   .contact-info__item-icon {
-      height: 1.1428rem;
+      height: 1.4428rem;
       vertical-align: text-bottom;
   }
 
@@ -174,6 +177,11 @@ body {
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+}
+
+.experiences__table {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 
 .experiences__header {
